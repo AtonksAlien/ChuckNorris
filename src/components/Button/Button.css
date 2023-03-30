@@ -1,0 +1,25 @@
+.clipboard{
+    width: 30%;
+    height: 8%;
+    border: 5px solid white;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Concert One';
+    background: rgba(141, 40, 44, 0.5);
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.generator{
+    width: 50%;
+    height: 12%;
+    border: 7px solid white;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Concert One';
+    background: #8D282C;
+    border-radius: 40px;
+}
