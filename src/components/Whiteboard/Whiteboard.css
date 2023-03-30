@@ -1,6 +1,6 @@
 .whiteboard{
     width: 60%;
-    height: 30%;
+    height: 35%;
     border: 4px solid black;
     border-radius: 30px;
     background-color: #D3DBBB;
@@ -12,6 +12,30 @@
 
 .joke{
     color: black;
-    font-size: 32px;
+    font-size: 33px;
     font-family: 'Concert One';
+    margin: 3%;
+}
+
+@media screen and (max-width: 1300px) {
+    .whiteboard{
+        width: 80%;
+        height: 30%;
+    }
+
+    .joke{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .whiteboard{
+        width: 90%;
+        height: 25%;
+    }
+
+    .joke{
+        font-size: 24px;
+    }
 }

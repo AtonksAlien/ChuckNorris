@@ -1,0 +1,74 @@
+.categories{
+    width: 20%;
+    position: relative;
+}
+
+.baseSelection{
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #7F906B;
+    color: #fff;
+    font-family: 'Concert One';
+    border: 4px solid #fff;
+    border-radius: 15px;
+    font-size: 32px;
+    padding: 3% 5%;
+}
+
+.selection{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #7F906B;
+    color: #fff;
+    font-family: 'Concert One';
+    border: 4px solid #fff;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+    font-size: 32px;
+    padding: 3% 5%;
+    height: 200px;
+    overflow-y: scroll;
+    top: 54px;
+}
+
+.category{
+    margin: 2%;
+}
+
+.category:hover{
+    cursor: pointer;
+    color: #693133;
+}
+
+@media screen and (max-width: 1300px) {
+    .categories{
+        width: 25%;
+    }
+    
+    .baseSelection{
+        font-size: 28px;
+    }
+    
+    .selection{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .categories{
+        width: 30%;
+    }
+    
+    .baseSelection{
+        font-size: 24px;
+    }
+    
+    .selection{
+        font-size: 24px;
+    }
+}
