@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import React from 'react'
 import gun from './assets/gun.png'
 import './App.css'
 import Title from './components/Title/Title'
+import Categories from './components/Categories/Categories'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Title/>
         <img src={gun} alt="gun" />
       </header>
+      <Categories/>
     </div>
   )
 }
