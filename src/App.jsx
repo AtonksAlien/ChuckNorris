@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import React,{ useState } from 'react'
 import gun from './assets/gun.png'
 import './App.css'
 import Title from './components/Title/Title'
+
+import Whiteboard from './components/Whiteboard/Whiteboard'
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
         <Title/>
         <img src={gun} alt="gun" />
       </header>
+      <Whiteboard/>
     </div>
   )
 }
