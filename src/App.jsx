@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import React,React from 'react'
 import gun from './assets/gun.png'
 import './App.css'
 import Title from './components/Title/Title'
@@ -6,6 +6,7 @@ import { Icon } from '@iconify/react';
 
 import Whiteboard from './components/Whiteboard/Whiteboard'
 import Button from './components/Button/Button'
+import Categories from './components/Categories/Categories'
 
 function App() {
 
@@ -16,15 +17,6 @@ function App() {
         <Title/>
         <img src={gun} alt="gun" />
       </header>
-      <Whiteboard/>
-      <Button variant='clipboard'>
-        COPY TO CLIPBOARD
-        <Icon icon="material-symbols:content-copy-outline" width={30} color='#fff'/>
-      </Button>
-      <Button>
-        GENERA JOKE
-      </Button> 
-
     </div>
   )
 }
