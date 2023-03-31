@@ -6,7 +6,7 @@
     font-size: 26px;
     font-family: 'Concert One';
     background: rgba(141, 40, 44, 1);
-    border-radius: 30px;
+    border-radius: 20px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
     font-size: 80px;
     font-family: 'Concert One';
     background: #8D282C;
-    border-radius: 40px;
+    border-radius: 30px;
     margin-bottom: 3%;
 }
 
