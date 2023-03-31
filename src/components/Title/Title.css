@@ -2,9 +2,21 @@ h1{
     font-family: 'Concert One';
     font-style: normal;
     font-weight: 800;
-    font-size: 120px;
+    font-size: 140px;
     text-align: center;
     color: #693133;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+@media screen and (max-width: 1300px) {
+    h1{
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 80px;
+    }
 }

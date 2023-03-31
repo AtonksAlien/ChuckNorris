@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .App{
@@ -12,11 +15,18 @@
     justify-content: center;
     align-items: center;
     background-color: #DCAD8A;
+    gap: 5%;
 }
 
 .App-header img{
     position: absolute;
     top: 0;
+}
+
+@media screen and (max-width: 1300px) {
+    .App-header img{
+        display: none;
+    }
 }
 
 .App-header img:last-child{

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Whiteboard.css';
 
-const Whiteboard = ({props}) => {
+const Whiteboard = ({joke}) => {
    return <div className='whiteboard'>
         <div className="joke">
-            Chuck Norris CAN touch MC hammer
+            {joke}
         </div>
    </div>
 }

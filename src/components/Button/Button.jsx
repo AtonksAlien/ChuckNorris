@@ -3,8 +3,8 @@ import './Button.css';
 
 
 
-const Button = ({children, variant}) => {
-   return <button className={variant == "clipboard" ? 'clipboard' : 'generator'}>{children}</button>
+const Button = ({children, variant, action, active}) => {
+   return <button disabled = {active} onClick={action} className={variant == "clipboard" ? 'clipboard' : 'generator'}>{children}</button>
 }
 
 export default Button;

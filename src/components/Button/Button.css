@@ -5,7 +5,7 @@
     color: #fff;
     font-size: 26px;
     font-family: 'Concert One';
-    background: rgba(141, 40, 44, 0.5);
+    background: rgba(141, 40, 44, 1);
     border-radius: 30px;
     align-items: center;
     display: flex;
@@ -13,13 +13,39 @@
     gap: 20px;
 }
 
+.clipboard:disabled{
+    background: rgba(141, 40, 44, 0.5);
+}
+
 .generator{
     width: 50%;
     height: 12%;
     border: 7px solid white;
     color: #fff;
-    font-size: 60px;
+    font-size: 80px;
     font-family: 'Concert One';
     background: #8D282C;
     border-radius: 40px;
+}
+
+@media screen and (max-width: 1300px) {
+    .clipboard{
+        width: 50%;
+        font-size: 24px;
+    }
+    .generator{
+        width: 70%;
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .clipboard{
+        width: 50%;
+        font-size: 25px;
+    }
+    .generator{
+        width: 80%;
+        font-size: 60px;
+    }
 }
